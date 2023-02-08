@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-08T21:28:19.169Z" agent="5.0 (Windows)" etag="WVIA1b9z6YEOI71Z-q1c" version="15.9.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-02-08T21:32:04.916Z" agent="5.0 (Windows)" etag="kAqqxliYye76Cr8nA4oI" version="15.9.4" type="github" pages="2">
   <diagram id="xSTBj9yHcgzol98K0Rbb" name="User Interaction">
-    <mxGraphModel dx="2666" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" background="#EEEEEE" math="0" shadow="0">
+    <mxGraphModel dx="2222" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" background="#EEEEEE" math="0" shadow="0">
       <root>
         <mxCell id="qZbU45Dlua_QGO64B5rn-0" />
         <mxCell id="qZbU45Dlua_QGO64B5rn-1" parent="qZbU45Dlua_QGO64B5rn-0" />
@@ -140,8 +140,20 @@
         <mxCell id="f68ZtvGS2RZUsANwBiAz-65" value="Wystawienie ogłoszenia na kanale" style="ellipse;whiteSpace=wrap;html=1;rounded=0;sketch=0;fontFamily=Helvetica;fontSize=12;fontColor=#1A1A1A;strokeColor=#909090;strokeWidth=1;fillColor=#F5AB50;" vertex="1" parent="qZbU45Dlua_QGO64B5rn-1">
           <mxGeometry x="240" y="50" width="140" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="f68ZtvGS2RZUsANwBiAz-66" value="Wystawienie ogłoszenia na kanale" style="ellipse;whiteSpace=wrap;html=1;rounded=0;sketch=0;fontFamily=Helvetica;fontSize=12;fontColor=#1A1A1A;strokeColor=#909090;strokeWidth=1;fillColor=#F5AB50;" vertex="1" parent="qZbU45Dlua_QGO64B5rn-1">
-          <mxGeometry x="540" y="50" width="140" height="74" as="geometry" />
+        <mxCell id="f68ZtvGS2RZUsANwBiAz-68" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#1A1A1A;strokeColor=#182E3E;fillColor=#FF3333;" edge="1" parent="qZbU45Dlua_QGO64B5rn-1" source="f68ZtvGS2RZUsANwBiAz-66" target="f68ZtvGS2RZUsANwBiAz-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f68ZtvGS2RZUsANwBiAz-66" value="Komenda na wystawienie rep-u" style="ellipse;whiteSpace=wrap;html=1;rounded=0;sketch=0;fontFamily=Helvetica;fontSize=12;fontColor=#1A1A1A;strokeColor=#909090;strokeWidth=1;fillColor=#F5AB50;" vertex="1" parent="qZbU45Dlua_QGO64B5rn-1">
+          <mxGeometry x="650" y="50" width="140" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="f68ZtvGS2RZUsANwBiAz-70" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#1A1A1A;strokeColor=#182E3E;fillColor=#FF3333;" edge="1" parent="qZbU45Dlua_QGO64B5rn-1" source="f68ZtvGS2RZUsANwBiAz-67" target="f68ZtvGS2RZUsANwBiAz-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f68ZtvGS2RZUsANwBiAz-67" value="Minął timeout od ostatniego wystawienia oceny" style="rhombus;whiteSpace=wrap;html=1;rounded=0;sketch=0;fontSize=12;fontColor=#1A1A1A;strokeColor=#909090;strokeWidth=1;fillColor=#F5AB50;" vertex="1" parent="qZbU45Dlua_QGO64B5rn-1">
+          <mxGeometry x="640" y="182" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="f68ZtvGS2RZUsANwBiAz-69" value="&lt;div&gt;Podanie:&lt;br&gt;&lt;/div&gt;&lt;div&gt;- username odbiorcy&lt;/div&gt;&lt;div&gt;- czy rep dodatni czy ujemny&lt;br&gt;- opis transakcji&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;sketch=0;fontFamily=Helvetica;fontSize=12;fontColor=#1A1A1A;strokeColor=#909090;strokeWidth=1;fillColor=#F5AB50;" vertex="1" parent="qZbU45Dlua_QGO64B5rn-1">
+          <mxGeometry x="620" y="290" width="200" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
