@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-08T21:40:16.313Z" agent="5.0 (Windows)" etag="RMMZHmZ7FdkSoODKdLl3" version="15.9.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-02-08T21:44:18.383Z" agent="5.0 (Windows)" etag="vkbgxnC9EMg-kKdpn_ZY" version="15.9.4" type="github" pages="2">
   <diagram id="xSTBj9yHcgzol98K0Rbb" name="User Interaction">
-    <mxGraphModel dx="2972" dy="964" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" background="#EEEEEE" math="0" shadow="0">
+    <mxGraphModel dx="3693" dy="1350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" background="#EEEEEE" math="0" shadow="0">
       <root>
         <mxCell id="qZbU45Dlua_QGO64B5rn-0" />
         <mxCell id="qZbU45Dlua_QGO64B5rn-1" parent="qZbU45Dlua_QGO64B5rn-0" />
@@ -239,14 +239,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JdtRsUSyMdCur2Gjf9jY" name="Struktura bazy danych">
-    <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#EEEEEE" math="0" shadow="0">
+    <mxGraphModel dx="1052" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#EEEEEE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="TIji_f0MyrBnHlkqa0H4-7" value="Kolekcja Discord Server ID" style="swimlane;rounded=0;sketch=0;fontColor=#1A1A1A;strokeColor=#909090;fillColor=#F5AB50;" vertex="1" parent="1">
-          <mxGeometry x="485" y="490" width="200" height="200" as="geometry" />
+          <mxGeometry x="352" y="314" width="465" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="yMRVxdgpB84g7OSbBlwn-1" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#F5AB50;strokeColor=#909090;fontColor=#1A1A1A;" parent="TIji_f0MyrBnHlkqa0H4-7" vertex="1">
+        <mxCell id="yMRVxdgpB84g7OSbBlwn-1" value="Transakcje" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#F5AB50;strokeColor=#909090;fontColor=#1A1A1A;" parent="TIji_f0MyrBnHlkqa0H4-7" vertex="1">
           <mxGeometry x="30" y="40" width="140" height="150" as="geometry" />
         </mxCell>
         <mxCell id="TIji_f0MyrBnHlkqa0H4-3" value="User ID Adresata" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#1A1A1A;" vertex="1" parent="yMRVxdgpB84g7OSbBlwn-1">
@@ -260,6 +260,18 @@
         </mxCell>
         <mxCell id="TIji_f0MyrBnHlkqa0H4-5" value="Description" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#1A1A1A;" vertex="1" parent="yMRVxdgpB84g7OSbBlwn-1">
           <mxGeometry y="120" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U_uA8FKLBv9K6nXzkhmF-1" value="Konfiguracja" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#F5AB50;strokeColor=#909090;fontColor=#1A1A1A;" vertex="1" parent="TIji_f0MyrBnHlkqa0H4-7">
+          <mxGeometry x="245" y="40" width="195" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="U_uA8FKLBv9K6nXzkhmF-2" value="Timeout wystawiania ocen" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#1A1A1A;" vertex="1" parent="U_uA8FKLBv9K6nXzkhmF-1">
+          <mxGeometry y="30" width="195" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U_uA8FKLBv9K6nXzkhmF-3" value="Kanały od handlu do auto-wątków" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#1A1A1A;" vertex="1" parent="U_uA8FKLBv9K6nXzkhmF-1">
+          <mxGeometry y="60" width="195" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U_uA8FKLBv9K6nXzkhmF-4" value="Kanały od requestowania komend" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#1A1A1A;" vertex="1" parent="U_uA8FKLBv9K6nXzkhmF-1">
+          <mxGeometry y="90" width="195" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
